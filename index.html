@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>LastStandStudio - Coming Soon</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700' rel='stylesheet' type='text/css'>
+	
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>	
+	<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+	<script type="text/javascript" src="js/jquery.countdown.js"></script>
+		
+	<script type="text/javascript">
+	
+
+		$(window).load(function() { // makes sure the whole site is loaded
+			$("#status").delay(500).fadeOut(); // will first fade out the loading animation
+			$("#preloader").delay(500).fadeOut("slow"); // will fade out the white DIV that covers the website.
+		})
+
+		jQuery(document).ready(function() {			
+		// countdown function. Set the date by modifying the date in next line (June 1, 2012 00:00:00):
+			var austDay = new Date("April 15, 2015 00:00:00");
+				
+				$('#countdown').countdown({
+					until: austDay, 
+					layout: '<div class="cd-item"><span class="cd-number">{dn}</span> <span class="cd-word">{dl}</span></div> <div class="cd-item"><span class="cd-number">{hn}</span> <span class="cd-word">{hl}</span></div><div class="cd-item"><span class="cd-number">{mn}</span> <span class="cd-word">{ml}</span></div> <div class="cd-item last-cd"><span class="cd-number">{sn}</span> <span class="cd-word">{sl}</span></div>'
+				});
+				
+				$('#year').text(austDay.getFullYear());
+		});
+
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-59562723-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+</head>
+<body>
+
+	<div id="preloader">
+		<div id="status">&nbsp;</div>
+	</div>
+
+	<div id="wrapper"></div>
+	
+	<div class="content-wrapper">			
+	
+		<!--<img class="logo" src="images/logo.png" alt="logo" />-->
+		<h1 class="logo">LAST<b>STAND</b>STUDIO</h1>
+		<h1>Our website is currently under construction</h1>
+		
+		<div class="separator"></div>
+		
+		<p>We're updating the website with some cool stuff, so stay close to us because we plan to launch it very soon. Until then, enjoy your eyes with the fullscreen slideshow that we've prepared for you!</p>
+		
+		<div class="space"></div>
+		
+		<p>We should be live in approximately:</p>
+
+		<div id="countdown"></div>			
+
+	</div>
+	
+	<div id="footer">
+		<ul class="social">
+			<!-- Here you can add your social links. Go to http://fontawesome.io/icons/#brand to add more of these  -->
+			<li><a href="http://twitter.com/LSStudioOffical"><i class="fa fa-2x fa-twitter"></i></a></li>
+			<li><a href="http://www.indiedb.com/company/last-stand-studio"><i class="fa fa-2x fa-gamepad"></i></a></li>
+			<li><a href="http://www.twitch.tv/laststandstudio/profile"><i class="fa fa-2x fa-twitch"></i></a></li>
+			<li><a href="https://www.youtube.com/channel/UCrn1f0Dg6FrUos0IRubjTIw"><i class="fa fa-2x fa-youtube"></i></a></li>
+		</ul>
+	</div>
+</body>
+</html>
