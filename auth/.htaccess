@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "restricted area"
+AuthUserFile /xampp/htdocs/laststandstudio/beta/auth/.htpasswd
+require valid-user
