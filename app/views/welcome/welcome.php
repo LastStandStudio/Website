@@ -1,7 +1,5 @@
 <?php
-
 use Core\Language;
-
 ?>
 
 <div class="page-header">
