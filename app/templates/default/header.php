@@ -26,38 +26,38 @@ use Helpers\Url;
 <body>
 	<!-- Nav Bar -->
 	<!-- TODO : Make the Navbar header look nicer -->
-	<nav class="navbar navbar-inverse">
-		<div class="container-fluid">
-	    <div class="navbar-header">
-	      <a class="navbar-brand" href="#">
-	        <!-- TODO : Fix alignment of this picture -->
-					<img alt="LS.Studio" src="app/templates/default/img/favicon.png">
-	      </a>
-				<!-- Add "LS.Studio" in stylisted text here -->
-	    </div>
-			<!-- TODO : Fix colapsing feature, doesnt seem to work.
+	<div class="navbar-wrapper">
+		<div class="container">
+			<nav class="navbar navbar-inverse navbar-static-top">
+				<div class="container-fluid">
+	    		<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        			<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        		</button>
+						<!-- TODO : Add "LS.Studio" in stylisted text here -->
+						<a class="navbar-brand" href="#">LS.Studio</a>
+						<!-- TODO : Add icon here too? -->
+	    		</div>
+					<!-- TODO : Fix colapsing feature, doesnt seem to work.
 		 							Possibly related to JQuery & custom css not loading -->
-			<div id="navbar" class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-					<li role="separator" class="divider"></li>
-					<!-- TODO : Add legit items to the navbar -->
-					<!-- TODO : Change active link with php -->
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<!-- TODO : Add legit items to the navbar -->
+							<!-- TODO : Change active link with php -->
 
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#">Link</a></li>
-					<li><a href="#">Link</a></li>
-					<li><a href="#">Link</a></li>
-					<li><a href="#">Link</a></li>
-					<li><a href="#">Link</a></li>
-					<li><a href="#">Link</a></li>
-					<li role="separator" class="divider"></li>
-				</ul>
-				<!--<form class="navbar-form navbar-right" role="search">
-  				<div class="form-group">
-    				<input type="text" class="form-control" placeholder="Search">
-  				</div>
-  				<button type="submit" class="btn btn-default">Search</button>
-				</form>-->
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#">Link</a></li>
+							<li><a href="#">Link</a></li>
+							<li><a href="#">Link</a></li>
+							<li><a href="#">Link</a></li>
+							<li><a href="#">Link</a></li>
+							<li><a href="#">Link</a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
 	</nav>
