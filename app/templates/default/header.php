@@ -38,24 +38,34 @@ use Helpers\Url;
         			<span class="icon-bar"></span>
         		</button>
 						<!-- TODO : Add "LS.Studio" in stylisted text here -->
-						<a class="navbar-brand" href="#">LS.Studio</a>
+						<!--<a class="navbar-brand" href="#"><img alt="Brand" src="app/templates/default/img/favicon.png"></a>-->
+						<a class="navbar-brand" href="#">LS. Studio</a>
 						<!-- TODO : Add icon here too? -->
 	    		</div>
 					<!-- TODO : Fix colapsing feature, doesnt seem to work.
 		 							Possibly related to JQuery & custom css not loading -->
 					<div id="navbar" class="navbar-collapse collapse">
-						<ul class="nav navbar-nav">
+						<ul class="nav navbar-nav navbar-right">
 							<!-- TODO : Add legit items to the navbar -->
 							<!-- TODO : Change active link with php -->
 
-							<li class="active"><a href="#">Home</a></li>
-							<li><a href="#">Link</a></li>
-							<li><a href="#">Link</a></li>
-							<li><a href="#">Link</a></li>
-							<li><a href="#">Link</a></li>
-							<li><a href="#">Link</a></li>
-							<li><a href="#">Link</a></li>
-						</ul>
+							<li <?php echo $data['page']=='home' ? 'class="active"' : ''; ?>><a href="#">Home</a></li>
+							<li <?php echo $data['page']=='a' ? 'class="active"' : ''; ?>><a href="#">Link</a></li>
+							<li <?php echo $data['page']=='s' ? 'class="active"' : ''; ?>><a href="#">Link</a></li>
+							<li <?php echo $data['page']=='o' ? 'class="active"' : ''; ?>><a href="#">Link</a></li>
+							<li <?php echo $data['page']=='u' ? 'class="active"' : ''; ?>><a href="#">Link</a></li>
+							<li <?php echo $data['page']=='b' ? 'class="active"' : ''; ?>><a href="#">Link</a></li>
+							<ul class="dropdown-menu">
+								<li><a href="#">English</a></li>
+							  <li><a href="#">Deutsch</a></li>
+								<li><a href="">Pусский</a></li>
+							  <li><a href="#">Español</a></li>
+							  <li><a href="#">Français</a></li>
+								<li><a href="">Nederlands</a></li>
+								<li><a href="">Italiano</a></li>
+								<li><a href="">Român</a></li>
+							</ul>
+					  </ul>
 					</div>
 				</div>
 			</div>
