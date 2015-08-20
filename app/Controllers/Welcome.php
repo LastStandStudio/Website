@@ -33,6 +33,8 @@ namespace Controllers {
             $data['title'] = $this->language->get('welcome_text');
             $data['welcome_message'] = $this->language->get('welcome_message');
 
+            $data['page']='home';
+
             View::renderTemplate('header', $data);
             View::render('welcome/welcome', $data);
             View::renderTemplate('footer', $data);

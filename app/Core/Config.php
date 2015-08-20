@@ -11,7 +11,7 @@ namespace Core {
             ob_start();
 
             //site address
-            define('wURL', 'http://laststandstudio.com');
+            define('wURL', 'http://'.$_SERVER['HTTP_HOST'].'/');
 
             //set default controller and method for legacy calls
             define('DEFAULT_CONTROLLER', 'welcome');
@@ -35,7 +35,7 @@ namespace Core {
             define('SESSION_PREFIX', 'lss_');
 
             //optionall create a constant for the name of the site
-            define('SITETITLE', 'LastStandStudio');
+            define('SITETITLE', 'Last Stand Studio');
 
             //optionall set a site email address
             //define('SITEEMAIL', '');
