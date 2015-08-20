@@ -55,16 +55,19 @@ use Helpers\Url;
 							<li <?php echo $data['page']=='o' ? 'class="active"' : ''; ?>><a href="#">Link</a></li>
 							<li <?php echo $data['page']=='u' ? 'class="active"' : ''; ?>><a href="#">Link</a></li>
 							<li <?php echo $data['page']=='b' ? 'class="active"' : ''; ?>><a href="#">Link</a></li>
-							<ul class="dropdown-menu">
-								<li><a href="#">English</a></li>
-							  <li><a href="#">Deutsch</a></li>
-								<li><a href="">Pусский</a></li>
-							  <li><a href="#">Español</a></li>
-							  <li><a href="#">Français</a></li>
-								<li><a href="">Nederlands</a></li>
-								<li><a href="">Italiano</a></li>
-								<li><a href="">Român</a></li>
-							</ul>
+							<li class="dropdown">
+              	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">English</a></li>
+							  	<li><a href="#">Deutsch</a></li>
+									<li><a href="">Pусский</a></li>
+							  	<li><a href="#">Español</a></li>
+							  	<li><a href="#">Français</a></li>
+									<li><a href="">Nederlands</a></li>
+									<li><a href="">Italiano</a></li>
+									<li><a href="">Român</a></li>
+								</ul>
+							</li>
 					  </ul>
 					</div>
 				</div>
