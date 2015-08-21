@@ -42,3 +42,5 @@ use Core\Language;
 <a class="btn btn-md btn-success" href="<?php echo wURL;?>subpage">
 	<?php echo Language::show('open_subpage', 'Welcome'); ?>
 </a>
+
+<br><br><br><br><br><br><br><br>
