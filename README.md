@@ -1,6 +1,6 @@
 # Last Stand Studio Website
 
-This is the public repository for LS.Studio's website front-end. Stay up to date with development on [Trello](https://trello.com/b/farQduUj).
+This is the public repository for LS.Studio's PHP MVC website. Stay up to date with development on [Trello](https://trello.com/b/farQduUj).
 
 ## Branches
 
