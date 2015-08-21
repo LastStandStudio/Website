@@ -19,6 +19,7 @@ use Helpers\Url;
 	Assets::css(array(
 		'//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css',
 		Url::templatePath() . 'css/style.css',
+		Url::templatePath() . 'css/language.min.css'
 	));
 	?>
 
@@ -66,14 +67,14 @@ use Helpers\Url;
 							<li class="dropdown">
               	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language<span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li><a href="#">English</a></li>
-							  	<li><a href="#">Deutsch</a></li>
-									<li><a href="">Pусский</a></li>
-							  	<li><a href="#">Español</a></li>
-							  	<li><a href="#">Français</a></li>
-									<li><a href="">Nederlands</a></li>
-									<li><a href="">Italiano</a></li>
-									<li><a href="">Român</a></li>
+									<li><a href="#"><span class="lang-xs lang-lbl" lang="de"></span></a></li>
+							  	<li><a href="#"><span class="lang-xs lang-lbl" lang="en"></a></li>
+									<li><a href=""><span class="lang-xs lang-lbl" lang="ru"></a></li>
+									<li><a href=""><span class="lang-xs lang-lbl" lang="fr"></a></li>
+							  	<li><a href="#"><span class="lang-xs lang-lbl" lang="it"></a></li>
+							  	<li><a href="#"><span class="lang-xs lang-lbl" lang="nl"></a></li>
+									<li><a href=""><span class="lang-xs lang-lbl" lang="pl"></a></li>
+									<li><a href=""><span class="lang-xs lang-lbl" lang="ro"></a></li>
 								</ul>
 							</li>
 					  </ul>
