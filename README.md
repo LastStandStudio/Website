@@ -33,10 +33,10 @@ this is a table of contence for each of the sub websites. The directories of the
 
 Last Stand Studio is not just a business, but a community. And a great way to be a part of this community is to get involved in our public repos. This is one of our many open-source and public works of code. Having code like this public makes it so that people can see how we used certain tools to make their own dreams a reality. Also putting code in the public domain is a nice way to guarantee pretty code, knowing people can/will review it. Now it is time to learn how to contribute.
 
-#### Instructions for Forking:
+#### A. Instructions for Forking:
 1. Hit the fork button on GitHub
 
-#### Instructions for Git Bash/Terminal
+#### B. Instructions for Git Bash/Terminal
 1. `mkdir LS.Website`
 2. `cd LS.Website`
 3. `git clone https://github.com/${Your Github Username}/Website`
@@ -44,7 +44,7 @@ Last Stand Studio is not just a business, but a community. And a great way to be
 
 Now you should have a local copy of this repository, it is important to note that all pull request should be made to the [Development](https://github.com/LastStandStudio/Website/tree/development) of this repository. For more read "Branches" above. Once you have made your changes, it is time to create a pull request.
 
-#### Instructions for Pull Requests
+#### C. Instructions for Pull Requests
 1. `git add --all`
 2. `git commit -m "Tell us what you changed"`
 3. `git push`
@@ -55,7 +55,7 @@ Now you should have a local copy of this repository, it is important to note tha
 
 Note: It is always good to keep your project up-to-date, one way to do this is to update your project before you begin work on it and keeping your changes small and commit constantly. It is easier to accept a bunch of small changes over one large change. Of course you can disregard this if you don't mind merging changes.
 
-#### Instructions for Updating your Fork
+#### D. Instructions for Updating your Fork
 1. `git fetch upstream`
 2. `git checkout master`
 3. `git rebase upstream/master`
@@ -63,3 +63,7 @@ Note: It is always good to keep your project up-to-date, one way to do this is t
 5. `git rebase upstream/beta`
 6. `git checkout development`
 7. `git rebase upstream/development`
+
+## Other Information
+
+Feel free to edit any file in this repository including this README.md if you see anything that is incorrect! :)
