@@ -20,4 +20,11 @@ return array(
 	'open_subpage' => 'Открыть подстраницу',
 	'back_home' => 'Домой',
 
+	//navbar
+	'home' => 'Home',
+	'about' => 'About',
+	'services' => 'Services',
+	'careers' => 'Careers',
+	'blog' => 'Blog',
+	'language' => 'Language',
 );

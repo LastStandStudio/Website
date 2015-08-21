@@ -15,4 +15,12 @@ return array(
 	// Butoane
 	'open_subpage' => 'Deschide subpagina',
 	'back_home' => 'Acasă',
+
+	//navbar
+	'home' => 'Home',
+	'about' => 'About',
+	'services' => 'Services',
+	'careers' => 'Careers',
+	'blog' => 'Blog',
+	'language' => 'Language',
 );

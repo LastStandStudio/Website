@@ -17,9 +17,9 @@ use Helpers\Url;
 	<!-- CSS -->
 	<?php
 	Assets::css(array(
-		'//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css',
+		Url::templatePath() . 'css/bootstrap.min.css',
 		Url::templatePath() . 'css/style.css',
-		Url::templatePath() . 'css/language.min.css'
+		Url::templatePath() . 'css/language.min.css',
 	));
 	?>
 
@@ -45,36 +45,33 @@ use Helpers\Url;
 	    		</div>
 					<div id="navbar" class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
-							<!-- TODO : Add legit items to the navbar -->
 							<li <?php echo $data['page']=='home' ? 'class="active"' : ''; ?>>
-								<a href="#">Home</a>
+								<a href="#"><?php echo $data['home']; ?></a>
 							</li>
 							<li <?php echo $data['page']=='a' ? 'class="active"' : ''; ?>>
-								<a href="#">Link</a>
+								<a href="#"><?php echo $data['about']; ?></a>
 							</li>
 							<li <?php echo $data['page']=='s' ? 'class="active"' : ''; ?>>
-								<a href="#">Link</a>
+								<a href="#"><?php echo $data['services']; ?></a>
 							</li>
 							<li <?php echo $data['page']=='o' ? 'class="active"' : ''; ?>>
-								<a href="#">Link</a>
+								<a href="#"><?php echo $data['careers']; ?></a>
 							</li>
 							<li <?php echo $data['page']=='u' ? 'class="active"' : ''; ?>>
-								<a href="#">Link</a>
+								<a href="http://laststandstudio.tumblr.com/"><?php echo $data['blog']; ?></a>
 							</li>
-							<li <?php echo $data['page']=='b' ? 'class="active"' : ''; ?>>
-								<a href="#">Link</a>
-							</li>
+							<!-- TODO : Add Language Changing Fucntionality -->
 							<li class="dropdown">
-              	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language<span class="caret"></span></a>
+              	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo $data['language']; ?><span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li><a href="#"><span class="lang-xs lang-lbl" lang="de"></span></a></li>
-							  	<li><a href="#"><span class="lang-xs lang-lbl" lang="en"></a></li>
-									<li><a href=""><span class="lang-xs lang-lbl" lang="ru"></a></li>
-									<li><a href=""><span class="lang-xs lang-lbl" lang="fr"></a></li>
-							  	<li><a href="#"><span class="lang-xs lang-lbl" lang="it"></a></li>
-							  	<li><a href="#"><span class="lang-xs lang-lbl" lang="nl"></a></li>
-									<li><a href=""><span class="lang-xs lang-lbl" lang="pl"></a></li>
-									<li><a href=""><span class="lang-xs lang-lbl" lang="ro"></a></li>
+							  	<li><a href="#"><span class="lang-xs lang-lbl" lang="en"></span></a></li>
+									<li><a href="#"><span class="lang-xs lang-lbl" lang="ru"></span></a></li>
+									<li><a href="#"><span class="lang-xs lang-lbl" lang="fr"></span></a></li>
+							  	<li><a href="#"><span class="lang-xs lang-lbl" lang="it"></span></a></li>
+							  	<li><a href="#"><span class="lang-xs lang-lbl" lang="nl"></span></a></li>
+									<li><a href="#"><span class="lang-xs lang-lbl" lang="pl"></span></a></li>
+									<li><a href="#"><span class="lang-xs lang-lbl" lang="ro"></span></a></li>
 								</ul>
 							</li>
 					  </ul>

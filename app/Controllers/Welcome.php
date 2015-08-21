@@ -35,6 +35,13 @@ namespace Controllers {
 
             $data['page']='home';
 
+            $data['home']     = $this->language->get('home');
+            $data['about']    = $this->language->get('about');
+            $data['services'] = $this->language->get('services');
+            $data['careers']  = $this->language->get('careers');
+            $data['blog']     = $this->language->get('blog');
+            $data['language'] = $this->language->get('language');
+
             View::renderTemplate('header', $data);
             View::render('welcome/welcome', $data);
             View::renderTemplate('footer', $data);
