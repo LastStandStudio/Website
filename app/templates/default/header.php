@@ -19,6 +19,7 @@ use Helpers\Url;
 	Assets::css(array(
 		'//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css',
 		Url::templatePath() . 'css/style.css',
+		Url::templatePath() . 'css/language.min.css'
 	));
 	?>
 
@@ -28,7 +29,7 @@ use Helpers\Url;
 	<!-- TODO : Make the Navbar header look nicer -->
 	<div class="navbar-wrapper">
 		<div class="container">
-			<nav class="navbar navbar-inverse navbar-static-top">
+			<nav class="navbar navbar-inverse navbar-fixed-top">
 				<div class="container-fluid">
 	    		<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -38,39 +39,47 @@ use Helpers\Url;
         			<span class="icon-bar"></span>
         		</button>
 						<!-- TODO : Add "LS.Studio" in stylisted text here -->
+						<!-- TODO : Add icon here too? -->
 						<!--<a class="navbar-brand" href="#"><img alt="Brand" src="app/templates/default/img/favicon.png"></a>-->
 						<a class="navbar-brand" href="#">LS. Studio</a>
-						<!-- TODO : Add icon here too? -->
 	    		</div>
-					<!-- TODO : Fix colapsing feature, doesnt seem to work.
-		 							Possibly related to JQuery & custom css not loading -->
 					<div id="navbar" class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
 							<!-- TODO : Add legit items to the navbar -->
-							<!-- TODO : Change active link with php -->
-
-							<li <?php echo $data['page']=='home' ? 'class="active"' : ''; ?>><a href="#">Home</a></li>
-							<li <?php echo $data['page']=='a' ? 'class="active"' : ''; ?>><a href="#">Link</a></li>
-							<li <?php echo $data['page']=='s' ? 'class="active"' : ''; ?>><a href="#">Link</a></li>
-							<li <?php echo $data['page']=='o' ? 'class="active"' : ''; ?>><a href="#">Link</a></li>
-							<li <?php echo $data['page']=='u' ? 'class="active"' : ''; ?>><a href="#">Link</a></li>
-							<li <?php echo $data['page']=='b' ? 'class="active"' : ''; ?>><a href="#">Link</a></li>
+							<li <?php echo $data['page']=='home' ? 'class="active"' : ''; ?>>
+								<a href="#">Home</a>
+							</li>
+							<li <?php echo $data['page']=='a' ? 'class="active"' : ''; ?>>
+								<a href="#">Link</a>
+							</li>
+							<li <?php echo $data['page']=='s' ? 'class="active"' : ''; ?>>
+								<a href="#">Link</a>
+							</li>
+							<li <?php echo $data['page']=='o' ? 'class="active"' : ''; ?>>
+								<a href="#">Link</a>
+							</li>
+							<li <?php echo $data['page']=='u' ? 'class="active"' : ''; ?>>
+								<a href="#">Link</a>
+							</li>
+							<li <?php echo $data['page']=='b' ? 'class="active"' : ''; ?>>
+								<a href="#">Link</a>
+							</li>
 							<li class="dropdown">
               	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language<span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li><a href="#">English</a></li>
-							  	<li><a href="#">Deutsch</a></li>
-									<li><a href="">Pусский</a></li>
-							  	<li><a href="#">Español</a></li>
-							  	<li><a href="#">Français</a></li>
-									<li><a href="">Nederlands</a></li>
-									<li><a href="">Italiano</a></li>
-									<li><a href="">Român</a></li>
+									<li><a href="#"><span class="lang-xs lang-lbl" lang="de"></span></a></li>
+							  	<li><a href="#"><span class="lang-xs lang-lbl" lang="en"></a></li>
+									<li><a href=""><span class="lang-xs lang-lbl" lang="ru"></a></li>
+									<li><a href=""><span class="lang-xs lang-lbl" lang="fr"></a></li>
+							  	<li><a href="#"><span class="lang-xs lang-lbl" lang="it"></a></li>
+							  	<li><a href="#"><span class="lang-xs lang-lbl" lang="nl"></a></li>
+									<li><a href=""><span class="lang-xs lang-lbl" lang="pl"></a></li>
+									<li><a href=""><span class="lang-xs lang-lbl" lang="ro"></a></li>
 								</ul>
 							</li>
 					  </ul>
 					</div>
 				</div>
-			</div>
+			</nav>
 		</div>
-	</nav>
+	</div>
