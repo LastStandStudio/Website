@@ -12,11 +12,11 @@ ready code at all times so it can be loaded directly from the server itself.
 
 2. The [Beta](https://github.com/LastStandStudio/Website/tree/beta) branch is for testing cutting edge code that may or
 may not have broken something somewhere for some reason. All the code from this branch will have been merged from
-the development branch and then fine tuned for release.
+the development branch and then fine tuned for release. All of the TODOs should already be done and out of all of the code in this branch.
 
 3. The [Development](https://github.com/LastStandStudio/Website/tree/development) branch, where all of the cutting edge
 code gets dumped into and where all of the pull request should be made to. Once the code here is functional and matured,
-a merge request should be sent to the beta branch for pre-deployment preperations.
+a merge request should be sent to the beta branch for pre-deployment preperations. This is where TODOs are put in and completed. Once the code is at a state of 0 TODOs with the exeption of long term ideas. The code should be pushed to beta for final debugging.
 
 ## Sub Domains
 
