@@ -28,7 +28,7 @@ use Helpers\Url;
 	<!-- TODO : Make the Navbar header look nicer -->
 	<div class="navbar-wrapper">
 		<div class="container">
-			<nav class="navbar navbar-inverse navbar-static-top">
+			<nav class="navbar navbar-inverse navbar-fixed-top">
 				<div class="container-fluid">
 	    		<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -38,23 +38,31 @@ use Helpers\Url;
         			<span class="icon-bar"></span>
         		</button>
 						<!-- TODO : Add "LS.Studio" in stylisted text here -->
+						<!-- TODO : Add icon here too? -->
 						<!--<a class="navbar-brand" href="#"><img alt="Brand" src="app/templates/default/img/favicon.png"></a>-->
 						<a class="navbar-brand" href="#">LS. Studio</a>
-						<!-- TODO : Add icon here too? -->
 	    		</div>
-					<!-- TODO : Fix colapsing feature, doesnt seem to work.
-		 							Possibly related to JQuery & custom css not loading -->
 					<div id="navbar" class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
 							<!-- TODO : Add legit items to the navbar -->
-							<!-- TODO : Change active link with php -->
-
-							<li <?php echo $data['page']=='home' ? 'class="active"' : ''; ?>><a href="#">Home</a></li>
-							<li <?php echo $data['page']=='a' ? 'class="active"' : ''; ?>><a href="#">Link</a></li>
-							<li <?php echo $data['page']=='s' ? 'class="active"' : ''; ?>><a href="#">Link</a></li>
-							<li <?php echo $data['page']=='o' ? 'class="active"' : ''; ?>><a href="#">Link</a></li>
-							<li <?php echo $data['page']=='u' ? 'class="active"' : ''; ?>><a href="#">Link</a></li>
-							<li <?php echo $data['page']=='b' ? 'class="active"' : ''; ?>><a href="#">Link</a></li>
+							<li <?php echo $data['page']=='home' ? 'class="active"' : ''; ?>>
+								<a href="#">Home</a>
+							</li>
+							<li <?php echo $data['page']=='a' ? 'class="active"' : ''; ?>>
+								<a href="#">Link</a>
+							</li>
+							<li <?php echo $data['page']=='s' ? 'class="active"' : ''; ?>>
+								<a href="#">Link</a>
+							</li>
+							<li <?php echo $data['page']=='o' ? 'class="active"' : ''; ?>>
+								<a href="#">Link</a>
+							</li>
+							<li <?php echo $data['page']=='u' ? 'class="active"' : ''; ?>>
+								<a href="#">Link</a>
+							</li>
+							<li <?php echo $data['page']=='b' ? 'class="active"' : ''; ?>>
+								<a href="#">Link</a>
+							</li>
 							<li class="dropdown">
               	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language<span class="caret"></span></a>
 								<ul class="dropdown-menu">
@@ -71,6 +79,6 @@ use Helpers\Url;
 					  </ul>
 					</div>
 				</div>
-			</div>
+			</nav>
 		</div>
-	</nav>
+	</div>
