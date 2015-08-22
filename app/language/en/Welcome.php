@@ -33,7 +33,12 @@ return array(
 	'rowens' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quos dignissimos facere, provident sed architecto eos velit itaque, animi cupiditate porro magni, numquam, aliquid eius. Nemo architecto ipsum asperiores quia!',
 	'jmawer' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus culpa ratione aspernatur velit consequuntur sed et doloremque, corporis, repudiandae provident iusto excepturi, non repellendus dolor quo deserunt totam delectus. Blanditiis!',
 	'jrichards' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum placeat necessitatibus, sunt quasi laudantium vitae aperiam error, eum officia, quae ad commodi eligendi, reprehenderit fuga at fugit odio quisquam!',
-	'' => '',
 
+	// Positions
+	'lead-dev' => 'Lead Developer',
+	'lead-art' => 'Lead Artist',
+	'lead-des' => 'Lead Designer',
+	'code' => 'Programmer',
+	'art' => 'Artist',
 
 );

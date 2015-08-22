@@ -49,6 +49,12 @@ namespace Controllers {
             $data['jmawer']     = $this->language->get('jmawer');
             $data['jrichards']  = $this->language->get('jrichards');
 
+            $data['lead-dev'] = $this->language->get('lead-dev');
+            $data['lead-art'] = $this->language->get('lead-art');
+            $data['lead-des'] = $this->language->get('lead-des');
+            $data['code']     = $this->language->get('code');
+            $data['art']      = $this->language->get('art');
+
             View::renderTemplate('header', $data);
             View::render('welcome/welcome', $data);
             View::renderTemplate('footer', $data);

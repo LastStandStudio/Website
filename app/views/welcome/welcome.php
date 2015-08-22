@@ -49,8 +49,6 @@ use Core\Language;
 	</a>
 	<!-- End Header -->
 
-	<hr/>
-
 	<!-- Team -->
 	<h1>Meet the Team!</h1>
 	<hr/>
@@ -59,6 +57,7 @@ use Core\Language;
     <div class="col-lg-4">
       <img class="img-circle" src="app/templates/default/img/users/tsteinholz.jpg" alt="Thomas Steinholz" width="140" height="140">
       <h2>Thomas Steinholz</h2>
+			<h4>CEO / CTO</h4>
 			<p><?php echo $data['tsteinholz']?></p>
 			<div class="icons">
 				<a href="http://www.steinholz.laststandstudio.com"><i class="fa fa-external-link"></i></a>
@@ -71,6 +70,7 @@ use Core\Language;
 	  <div class="col-lg-4">
 	    <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
 	    <h2>Harrison Ernst</h2>
+			<h4><?php echo $data['lead-art']?></h4>
 		  <p><?php echo $data['hernst']?></p>
 			<div class="icons">
 				<a href="https://github.com/LastStandStudio"><i class="fa fa-github"></i></a>
@@ -83,6 +83,7 @@ use Core\Language;
 	  <div class="col-lg-4">
 		  <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
 	  	<h2>Joshua Freedman</h2>
+			<h4><?php echo $data['lead-dev']?></h4>
 			<p><?php echo $data['jfreedman']?></p>
 			<div class="icons">
 				<a href="https://github.com/LastStandStudio"><i class="fa fa-github"></i></a>
@@ -98,6 +99,7 @@ use Core\Language;
 		<div class="col-lg-4">
       <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
       <h2>Ross Owens</h2>
+			<h4><?php echo $data['lead-des']?></h4>
 			<p><?php echo $data['rowens']?></p>
 			<div class="icons">
 				<a href="https://github.com/LastStandStudio"><i class="fa fa-github"></i></a>
@@ -110,6 +112,7 @@ use Core\Language;
 	  <div class="col-lg-4">
 	    <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
 	    <h2>Jack Mawer</h2>
+			<h4><?php echo $data['code']?></h4>
 			<p><?php echo $data['jmawer']?></p>
 			<div class="icons">
 				<a href="https://github.com/LastStandStudio"><i class="fa fa-github"></i></a>
@@ -122,6 +125,7 @@ use Core\Language;
 	  <div class="col-lg-4">
 		  <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
 	  	<h2>Jack Richards</h2>
+			<h4><?php echo $data['code']?> / <?php echo $data['art'] ?></h4>
 			<p><?php echo $data['jrichards']?></p>
 			<div class="icons">
 				<a href="https://github.com/LastStandStudio"><i class="fa fa-github"></i></a>
