@@ -55,17 +55,19 @@ use Core\Language;
 	<h1>Meet the Team!</h1>
 	<hr/>
 	<div class="row">
+		<!-- Thomas Steinholz -->
     <div class="col-lg-4">
-      <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+      <img class="img-circle" src="app/templates/default/img/users/tsteinholz.jpg" alt="Thomas Steinholz" width="140" height="140">
       <h2>Thomas Steinholz</h2>
 			<p><?php echo $data['tsteinholz']?></p>
 			<div class="icons">
-				<a href="https://github.com/LastStandStudio"><i class="fa fa-github"></i></a>
-				<a href="https://twitter.com/LSStudioOffical"><i class="fa fa-twitter"></i></a>
-				<a href="http://steamcommunity.com/id/LastStandStudio/profile"><i class="fa fa-steam"></i></a>
-				<a href="http://www.twitch.tv/laststandstudio/profile"><i class="fa fa-twitch"></i></a>
+				<a href="http://www.steinholz.laststandstudio.com"><i class="fa fa-external-link"></i></a>
+				<a href="https://github.com/tsteinholz"><i class="fa fa-github"></i></a>
+				<a href="http://steamcommunity.com/id/tsteinholz"><i class="fa fa-steam"></i></a>
+				<a href="https://twitter.com/ThomasSteinholz"><i class="fa fa-twitter"></i></a>
 			</div>
 	  </div>
+		<!-- Harrison Ernst -->
 	  <div class="col-lg-4">
 	    <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
 	    <h2>Harrison Ernst</h2>
@@ -75,7 +77,9 @@ use Core\Language;
 				<a href="https://twitter.com/LSStudioOffical"><i class="fa fa-twitter"></i></a>
 				<a href="http://steamcommunity.com/id/LastStandStudio/profile"><i class="fa fa-steam"></i></a>
 				<a href="http://www.twitch.tv/laststandstudio/profile"><i class="fa fa-twitch"></i></a>
-			</div>	  </div>
+			</div>
+		</div>
+		<!-- Joshua Freedman -->
 	  <div class="col-lg-4">
 		  <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
 	  	<h2>Joshua Freedman</h2>
@@ -85,11 +89,13 @@ use Core\Language;
 				<a href="https://twitter.com/LSStudioOffical"><i class="fa fa-twitter"></i></a>
 				<a href="http://steamcommunity.com/id/LastStandStudio/profile"><i class="fa fa-steam"></i></a>
 				<a href="http://www.twitch.tv/laststandstudio/profile"><i class="fa fa-twitch"></i></a>
-			</div>	  </div>
+			</div>
+		</div>
 	</div>
 	<br/>
 	<div class="row">
-    <div class="col-lg-4">
+    <!-- Ross Owens -->
+		<div class="col-lg-4">
       <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
       <h2>Ross Owens</h2>
 			<p><?php echo $data['rowens']?></p>
@@ -98,7 +104,9 @@ use Core\Language;
 				<a href="https://twitter.com/LSStudioOffical"><i class="fa fa-twitter"></i></a>
 				<a href="http://steamcommunity.com/id/LastStandStudio/profile"><i class="fa fa-steam"></i></a>
 				<a href="http://www.twitch.tv/laststandstudio/profile"><i class="fa fa-twitch"></i></a>
-			</div>	  </div>
+			</div>
+		</div>
+		<!-- Jack Mawer -->
 	  <div class="col-lg-4">
 	    <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
 	    <h2>Jack Mawer</h2>
@@ -108,7 +116,9 @@ use Core\Language;
 				<a href="https://twitter.com/LSStudioOffical"><i class="fa fa-twitter"></i></a>
 				<a href="http://steamcommunity.com/id/LastStandStudio/profile"><i class="fa fa-steam"></i></a>
 				<a href="http://www.twitch.tv/laststandstudio/profile"><i class="fa fa-twitch"></i></a>
-			</div>	  </div>
+			</div>
+		</div>
+		<!-- Jack Richards -->
 	  <div class="col-lg-4">
 		  <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
 	  	<h2>Jack Richards</h2>
