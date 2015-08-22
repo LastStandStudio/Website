@@ -8,6 +8,7 @@ use Core\Language;
   	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
+		<li data-target="#myCarousel" data-slide-to="3"></li>
   </ol>
   <div class="carousel-inner" role="listbox">
   	<div class="item active">
@@ -18,6 +19,9 @@ use Core\Language;
     </div>
     <div class="item">
     	<img class="third-slide" src="app/templates/default/img/Welcome/somnia.png" alt="Third slide">
+    </div>
+		<div class="item">
+    	<img class="fourth-slide" src="app/templates/default/img/Welcome/last-stand-graphic.png" alt="Fourth slide">
     </div>
   </div>
   <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">

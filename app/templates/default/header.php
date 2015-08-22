@@ -18,9 +18,9 @@ use Helpers\Url;
 	<?php
 	Assets::css(array(
 		Url::templatePath() . 'css/bootstrap.min.css',
-		Url::templatePath() . 'css/style.css',
 		Url::templatePath() . 'css/language.min.css',
-		Url::templatePath() . 'css/footer.css',
+		Url::templatePath() . 'css/font-awesome.min.css',
+		Url::templatePath() . 'css/style.css',
 	));
 	?>
 
@@ -42,28 +42,28 @@ use Helpers\Url;
 						<!-- TODO : Add "LS.Studio" in stylisted text here -->
 						<!-- TODO : Add icon here too? -->
 						<!--<a class="navbar-brand" href="#"><img alt="Brand" src="app/templates/default/img/favicon.png"></a>-->
-						<a class="navbar-brand" href="#">Last <span>Stand</span> Studio</a>
+						<a class="navbar-brand" href="/">Last <span>Stand</span> Studio</a>
 	    		</div>
 					<div id="navbar" class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
 							<li <?php echo $data['page']=='home' ? 'class="active"' : ''; ?>>
-								<a href="#"><?php echo $data['home']; ?></a>
+								<a href="/"><?php echo $data['home']; ?></a>
 							</li>
-							<li <?php echo $data['page']=='a' ? 'class="active"' : ''; ?>>
-								<a href="#"><?php echo $data['about']; ?></a>
+							<li <?php echo $data['page']=='about' ? 'class="active"' : ''; ?>>
+								<a href="/about"><?php echo $data['about']; ?></a>
 							</li>
-							<li <?php echo $data['page']=='s' ? 'class="active"' : ''; ?>>
-								<a href="#"><?php echo $data['services']; ?></a>
+							<li <?php echo $data['page']=='services' ? 'class="active"' : ''; ?>>
+								<a href="/services"><?php echo $data['services']; ?></a>
 							</li>
-							<li <?php echo $data['page']=='o' ? 'class="active"' : ''; ?>>
-								<a href="#"><?php echo $data['careers']; ?></a>
+							<li <?php echo $data['page']=='careers' ? 'class="active"' : ''; ?>>
+								<a href="/careers"><?php echo $data['careers']; ?></a>
 							</li>
-							<li <?php echo $data['page']=='u' ? 'class="active"' : ''; ?>>
+							<li>
 								<a href="http://laststandstudio.tumblr.com/"><?php echo $data['blog']; ?></a>
 							</li>
 							<!-- TODO : Add Language Changing Fucntionality -->
 							<li class="dropdown">
-              	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo $data['language']; ?><span class="caret"></span></a>
+              	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe"></i> <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li><a href="#"><span class="lang-xs lang-lbl" lang="de"></span></a></li>
 							  	<li><a href="#"><span class="lang-xs lang-lbl" lang="en"></span></a></li>
