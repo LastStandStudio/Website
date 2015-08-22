@@ -42,6 +42,13 @@ namespace Controllers {
             $data['blog']     = $this->language->get('blog');
             $data['language'] = $this->language->get('language');
 
+            $data['tsteinholz'] = $this->language->get('tsteinholz');
+            $data['hernst']     = $this->language->get('hernst');
+            $data['jfreedman']  = $this->language->get('jfreedman');
+            $data['rowens']     = $this->language->get('rowens');
+            $data['jmawer']     = $this->language->get('jmawer');
+            $data['jrichards']  = $this->language->get('jrichards');
+
             View::renderTemplate('header', $data);
             View::render('welcome/welcome', $data);
             View::renderTemplate('footer', $data);

@@ -65,14 +65,14 @@ use Helpers\Url;
 							<li class="dropdown">
               	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe"></i> <span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li><a href="#"><span class="lang-xs lang-lbl" lang="de"></span></a></li>
-							  	<li><a href="#"><span class="lang-xs lang-lbl" lang="en"></span></a></li>
-									<li><a href="#"><span class="lang-xs lang-lbl" lang="ru"></span></a></li>
-									<li><a href="#"><span class="lang-xs lang-lbl" lang="fr"></span></a></li>
-							  	<li><a href="#"><span class="lang-xs lang-lbl" lang="it"></span></a></li>
-							  	<li><a href="#"><span class="lang-xs lang-lbl" lang="nl"></span></a></li>
-									<li><a href="#"><span class="lang-xs lang-lbl" lang="pl"></span></a></li>
-									<li><a href="#"><span class="lang-xs lang-lbl" lang="ro"></span></a></li>
+									<li><a href="#"><span class="lang-xs" lang="de"></span>  <span class="lang-lbl" lang="de"></span></a></li>
+							  	<li><a href="#"><span class="lang-xs" lang="en"></span>  <span class="lang-lbl" lang="de"></a></li>
+									<li><a href="#"><span class="lang-xs" lang="ru"></span>  <span class="lang-lbl" lang="ru"></a></li>
+									<li><a href="#"><span class="lang-xs" lang="fr"></span>  <span class="lang-lbl" lang="fr"></a></li>
+							  	<li><a href="#"><span class="lang-xs" lang="it"></span>  <span class="lang-lbl" lang="it"></a></li>
+							  	<li><a href="#"><span class="lang-xs" lang="nl"></span>  <span class="lang-lbl" lang="nl"></a></li>
+									<li><a href="#"><span class="lang-xs" lang="pl"></span>  <span class="lang-lbl" lang="pl"></a></li>
+									<li><a href="#"><span class="lang-xs" lang="ro"></span>  <span class="lang-lbl" lang="ro"></a></li>
 								</ul>
 							</li>
 					  </ul>
@@ -81,3 +81,4 @@ use Helpers\Url;
 			</nav>
 		</div>
 	</div>
+<div class="">

@@ -18,7 +18,7 @@ use Core\Language;
     	<img class="second-slide" src="app/templates/default/img/Welcome/welcome.png" alt="Second slide">
     </div>
     <div class="item">
-    	<img class="third-slide" src="app/templates/default/img/Welcome/somnia.png" alt="Third slide">
+    	<img class="third-slide" src="app/templates/default/img/Welcome/somnia-graphic.png" alt="Third slide">
     </div>
 		<div class="item">
     	<img class="fourth-slide" src="app/templates/default/img/Welcome/last-stand-graphic.png" alt="Fourth slide">
@@ -35,16 +35,91 @@ use Core\Language;
 </div>
 <!-- End Carousel -->
 
+<div class="main">
 
+	<!-- Header -->
+	<div class="page-header">
+		<h1><?php echo $data['title'] ?></h1>
+	</div>
 
-<div class="page-header">
-	<h1><?php echo $data['title'] ?></h1>
+	<p><?php echo $data['welcome_message']; echo $_SERVER['HTTP_HOST']; ?></p>
+
+	<a class="btn btn-md btn-success" href="<?php echo wURL;?>subpage">
+		<?php echo Language::show('open_subpage', 'Welcome'); ?>
+	</a>
+	<!-- End Header -->
+
+	<hr/>
+
+	<!-- Team -->
+	<h1>Meet the Team!</h1>
+	<hr/>
+	<div class="row">
+    <div class="col-lg-4">
+      <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+      <h2>Thomas Steinholz</h2>
+			<p><?php echo $data['tsteinholz']?></p>
+			<div class="icons">
+				<a href="https://github.com/LastStandStudio"><i class="fa fa-github"></i></a>
+				<a href="https://twitter.com/LSStudioOffical"><i class="fa fa-twitter"></i></a>
+				<a href="http://steamcommunity.com/id/LastStandStudio/profile"><i class="fa fa-steam"></i></a>
+				<a href="http://www.twitch.tv/laststandstudio/profile"><i class="fa fa-twitch"></i></a>
+			</div>
+	  </div>
+	  <div class="col-lg-4">
+	    <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+	    <h2>Harrison Ernst</h2>
+		  <p><?php echo $data['hernst']?></p>
+			<div class="icons">
+				<a href="https://github.com/LastStandStudio"><i class="fa fa-github"></i></a>
+				<a href="https://twitter.com/LSStudioOffical"><i class="fa fa-twitter"></i></a>
+				<a href="http://steamcommunity.com/id/LastStandStudio/profile"><i class="fa fa-steam"></i></a>
+				<a href="http://www.twitch.tv/laststandstudio/profile"><i class="fa fa-twitch"></i></a>
+			</div>	  </div>
+	  <div class="col-lg-4">
+		  <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+	  	<h2>Joshua Freedman</h2>
+			<p><?php echo $data['jfreedman']?></p>
+			<div class="icons">
+				<a href="https://github.com/LastStandStudio"><i class="fa fa-github"></i></a>
+				<a href="https://twitter.com/LSStudioOffical"><i class="fa fa-twitter"></i></a>
+				<a href="http://steamcommunity.com/id/LastStandStudio/profile"><i class="fa fa-steam"></i></a>
+				<a href="http://www.twitch.tv/laststandstudio/profile"><i class="fa fa-twitch"></i></a>
+			</div>	  </div>
+	</div>
+	<br/>
+	<div class="row">
+    <div class="col-lg-4">
+      <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+      <h2>Ross Owens</h2>
+			<p><?php echo $data['rowens']?></p>
+			<div class="icons">
+				<a href="https://github.com/LastStandStudio"><i class="fa fa-github"></i></a>
+				<a href="https://twitter.com/LSStudioOffical"><i class="fa fa-twitter"></i></a>
+				<a href="http://steamcommunity.com/id/LastStandStudio/profile"><i class="fa fa-steam"></i></a>
+				<a href="http://www.twitch.tv/laststandstudio/profile"><i class="fa fa-twitch"></i></a>
+			</div>	  </div>
+	  <div class="col-lg-4">
+	    <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+	    <h2>Jack Mawer</h2>
+			<p><?php echo $data['jmawer']?></p>
+			<div class="icons">
+				<a href="https://github.com/LastStandStudio"><i class="fa fa-github"></i></a>
+				<a href="https://twitter.com/LSStudioOffical"><i class="fa fa-twitter"></i></a>
+				<a href="http://steamcommunity.com/id/LastStandStudio/profile"><i class="fa fa-steam"></i></a>
+				<a href="http://www.twitch.tv/laststandstudio/profile"><i class="fa fa-twitch"></i></a>
+			</div>	  </div>
+	  <div class="col-lg-4">
+		  <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+	  	<h2>Jack Richards</h2>
+			<p><?php echo $data['jrichards']?></p>
+			<div class="icons">
+				<a href="https://github.com/LastStandStudio"><i class="fa fa-github"></i></a>
+				<a href="https://twitter.com/LSStudioOffical"><i class="fa fa-twitter"></i></a>
+				<a href="http://steamcommunity.com/id/LastStandStudio/profile"><i class="fa fa-steam"></i></a>
+				<a href="http://www.twitch.tv/laststandstudio/profile"><i class="fa fa-twitch"></i></a>
+			</div>	  </div>
+	</div>
+	<!-- End Team-->
+
 </div>
-
-<p><?php echo $data['welcome_message']; echo $_SERVER['HTTP_HOST']; ?></p>
-
-<a class="btn btn-md btn-success" href="<?php echo wURL;?>subpage">
-	<?php echo Language::show('open_subpage', 'Welcome'); ?>
-</a>
-
-<br><br><br><br><br><br><br><br>

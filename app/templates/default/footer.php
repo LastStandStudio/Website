@@ -11,17 +11,19 @@ Assets::js(array(
 ));
 ?>
 
+</div>
+
 <footer class="footer-distributed">
 			<div class="footer-left">
 				<h3>Last <span>Stand</span> Studio</h3>
 				<p class="footer-links">
-					<a href="#"><?php echo $data['home']; ?></a>
+					<a href="/"><?php echo $data['home']; ?></a>
 					·
-					<a href="#"><?php echo $data['about']; ?></a>
+					<a href="/about"><?php echo $data['about']; ?></a>
 					·
-					<a href="#"><?php echo $data['services']; ?></a>
+					<a href="/services"><?php echo $data['services']; ?></a>
 					·
-					<a href="#"><?php echo $data['careers']; ?></a>
+					<a href="/careers"><?php echo $data['careers']; ?></a>
 					·
 					<a href="http://laststandstudio.tumblr.com/"><?php echo $data['blog']; ?></a>
 				</p>
