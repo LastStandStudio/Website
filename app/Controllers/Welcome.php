@@ -41,5 +41,12 @@ namespace Controllers
             View::render('welcome/welcome', $data);
             View::renderTemplate('footer', $data);
         }
+
+        public function subpage(){
+
+                      View::renderTemplate('header', $data);
+                      View::render('welcome/subpage', $data);
+                      View::renderTemplate('footer', $data);
+        }
     }
 }

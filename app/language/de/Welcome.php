@@ -23,7 +23,6 @@ return array(
 	'lead-des' => 'Lead Designer',
 	'code' => 'Programmer',
 	'art' => 'Artist',
-
 );
 
 ?>
