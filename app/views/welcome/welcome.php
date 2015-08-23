@@ -121,7 +121,7 @@ use Core\Language;
 		</div>
 		<!-- Jack Richards -->
 	  <div class="col-lg-4">
-		  <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+		  <img class="img-circle" src="app/templates/default/img/users/jrichards.jpg" alt="Jack Richards" width="140" height="140">
 	  	<h2>Jack Richards</h2>
 			<h4><?php echo $data['code']?> / <?php echo $data['art'] ?></h4>
 			<p><?php echo $data['jrichards']?></p>
