@@ -2,6 +2,8 @@
 use Core\Language;
 ?>
 
+<!-- TODO : Clean up Page especially language -->
+
 <!-- Carousel -->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 	<ol class="carousel-indicators">
@@ -25,7 +27,7 @@ use Core\Language;
     	<img class="fourth-slide" src="app/templates/default/img/Welcome/last-stand-graphic.png" alt="Fourth slide">
     </div>
 		<div class="item">
-    	<img class="fifth-slide" src="app/templates/default/img/Welcome/blog.jpg" alt="Fifth slide">
+    	<img class="fifth-slide" src="app/templates/default/img/Welcome/blog-graphic.png" alt="Fifth slide">
     </div>
   </div>
   <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -42,7 +44,7 @@ use Core\Language;
 <div class="main">
 
 	<!-- Header -->
-	<div class="page-header">
+	<!--div class="page-header">
 		<h1><?php echo $data['title'] ?></h1>
 	</div>
 
@@ -50,12 +52,12 @@ use Core\Language;
 
 	<a class="btn btn-md btn-success" href="<?php echo wURL;?>subpage">
 		<?php echo Language::show('open_subpage', 'Welcome'); ?>
-	</a>
+	</a-->
 	<!-- End Header -->
 
 	<!-- Team -->
-	<h1>Meet the Team!</h1>
-	<hr/>
+	<!--h1><?php echo $data['the-team']?></h1-->
+	<br/><br/>
 	<div class="row">
 		<!-- Thomas Steinholz -->
     <div class="col-lg-4">
@@ -139,5 +141,8 @@ use Core\Language;
 			</div>	  </div>
 	</div>
 	<!-- End Team-->
+
+	</div>
+	<!-- End Twitter ->
 
 </div>

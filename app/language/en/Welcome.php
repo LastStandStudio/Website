@@ -41,4 +41,7 @@ return array(
 	'code' => 'Programmer',
 	'art' => 'Artist',
 
+	// Headings
+	'the-team' => 'The Team!',
+
 );

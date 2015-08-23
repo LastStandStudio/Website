@@ -55,6 +55,8 @@ namespace Controllers {
             $data['code']     = $this->language->get('code');
             $data['art']      = $this->language->get('art');
 
+            $data['the-team'] = $this->language->get('the-team');
+
             View::renderTemplate('header', $data);
             View::render('welcome/welcome', $data);
             View::renderTemplate('footer', $data);
