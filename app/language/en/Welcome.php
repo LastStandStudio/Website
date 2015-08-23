@@ -9,24 +9,7 @@ return array(
 	'careers' => 'Careers',
 	'blog' => 'Blog',
 
-	// Index method
-	'welcome_text' => 'Welcome',
-	'welcome_message' => '
-		Hello, welcome from the welcome controller! <br/>
-		This content can be changed in <code>/app/views/welcome/welcome.php</code>',
-
-	// Subpage method
-	'subpage_text' => 'Subpage',
-	'subpage_message' => '
-		Hello, welcome from the welcome controller and subpage method! <br/>
-		This content can be changed in <code>/app/views/welcome/subpage.php</code>
-	',
-
-	// Buttons
-	'open_subpage' => 'Open subpage',
-	'back_home' => 'Home',
-
-	// Employees
+	// Employee's Description
 	'tsteinholz' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque eaque totam dignissimos iure perferendis mollitia inventore et rem, ullam pariatur commodi quisquam maxime nesciunt quod porro praesentium blanditiis atque repudiandae.',
 	'hernst' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid velit blanditiis consequatur aspernatur debitis natus, possimus omnis. Tempore, maxime minima ipsum fuga! Nulla dolorum laboriosam, harum quod corporis debitis dolores!',
 	'jfreedman' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque vero nesciunt dolore reiciendis officiis veritatis praesentium, cumque excepturi pariatur odio provident voluptate, amet aut dolor iste accusantium omnis! Voluptas, eius?',
@@ -41,7 +24,6 @@ return array(
 	'code' => 'Programmer',
 	'art' => 'Artist',
 
-	// Headings
-	'the-team' => 'The Team!',
-
 );
+
+?>

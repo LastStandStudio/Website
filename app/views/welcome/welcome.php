@@ -2,8 +2,6 @@
 use Core\Language;
 ?>
 
-<!-- TODO : Clean up Page especially language -->
-
 <!-- Carousel -->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 	<ol class="carousel-indicators">
@@ -34,22 +32,8 @@ use Core\Language;
 <!-- End Carousel -->
 
 <div class="main">
-
-	<!-- Header -->
-	<!--div class="page-header">
-		<h1><?php echo $data['title'] ?></h1>
-	</div>
-
-	<p><?php echo $data['welcome_message']; echo $_SERVER['HTTP_HOST']; ?></p>
-
-	<a class="btn btn-md btn-success" href="<?php echo wURL;?>subpage">
-		<?php echo Language::show('open_subpage', 'Welcome'); ?>
-	</a-->
-	<!-- End Header -->
-
-	<!-- Team -->
-	<!--h1><?php echo $data['the-team']?></h1-->
 	<br/><br/>
+	<!-- Team -->
 	<div class="row">
 		<!-- Thomas Steinholz -->
     <div class="col-lg-4">
@@ -133,8 +117,4 @@ use Core\Language;
 			</div>	  </div>
 	</div>
 	<!-- End Team-->
-
-	</div>
-	<!-- End Twitter ->
-
 </div>
