@@ -3,11 +3,17 @@
 return array(
 
 	// Navbar
-	'home' => 'Home',
-	'about' => 'About',
-	'services' => 'Services',
-	'careers' => 'Careers',
+	'home' => 'Casa',
+	'about' => 'Sobre',
+	'services' => 'Servicios',
+	'careers' => 'Carreras',
 	'blog' => 'Blog',
+
+	// Footer
+	'contact' => 'Contáctenos',
+	'email' => 'Tu Correo Electrónico',
+	'msg' => 'Tu Mensaje',
+	'send' => 'Enviar',
 
 	// Employee's Description
 	'tsteinholz' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque eaque totam dignissimos iure perferendis mollitia inventore et rem, ullam pariatur commodi quisquam maxime nesciunt quod porro praesentium blanditiis atque repudiandae.',
@@ -18,11 +24,11 @@ return array(
 	'jrichards' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum placeat necessitatibus, sunt quasi laudantium vitae aperiam error, eum officia, quae ad commodi eligendi, reprehenderit fuga at fugit odio quisquam!',
 
 	// Positions
-	'lead-dev' => 'Lead Developer',
-	'lead-art' => 'Lead Artist',
-	'lead-des' => 'Lead Designer',
-	'code' => 'Programmer',
-	'art' => 'Artist',
+	'lead-dev' => 'Desarrollador Principal',
+	'lead-art' => 'Artista Principal',
+	'lead-des' => 'Diseñador Jefe',
+	'code' => 'Programador',
+	'art' => 'Artista',
 
 );
 

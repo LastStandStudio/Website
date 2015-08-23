@@ -54,12 +54,12 @@ Assets::js(array(
 			<div class="footer-center">
 			</div>
 			<div class="footer-right">
-				<p>Contact Us</p>
+				<p><?php echo $data['contact']?></p>
 				<!-- TODO : Send email to 'officallaststandstudio@gmail.com' -->
 				<form action="#" method="post">
 					<input type="text" name="email" placeholder="<?php echo $data['email'] ?>" />
 					<textarea name="message" placeholder="<?php echo $data['msg'] ?>"></textarea>
-					<button>Send</button>
+					<button><?php echo $data['send']?></button>
 				</form>
 			</div>
 		</footer>

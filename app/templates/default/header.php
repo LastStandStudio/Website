@@ -57,18 +57,17 @@ use Helpers\Url;
 							<li>
 								<a href="http://laststandstudio.tumblr.com/"><?php echo $data['blog']; ?></a>
 							</li>
-							<!-- TODO : Add Language Changing Fucntionality -->
 							<li class="dropdown">
               	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe"></i> <span class="caret"></span></a>
 								<ul class="dropdown-menu language">
 									<li lang="de"><a href="#"><span class="lang-xs" lang="de"></span>  <span class="lang-lbl" lang="de"></span></a></li>
 							  	<li lang="en"><a href="#"><span class="lang-xs" lang="en"></span>  <span class="lang-lbl" lang="en"></a></li>
 									<li lang="ru"><a href="#"><span class="lang-xs" lang="ru"></span>  <span class="lang-lbl" lang="ru"></a></li>
-									<li lang="fr"><a href="#"><span class="lang-xs" lang="fr"></span>  <span class="lang-lbl" lang="fr"></a></li>
-							  	<li lang="it"><a href="#"><span class="lang-xs" lang="it"></span>  <span class="lang-lbl" lang="it"></a></li>
-							  	<li lang="nl"><a href="#"><span class="lang-xs" lang="nl"></span>  <span class="lang-lbl" lang="nl"></a></li>
+									<li lang="nl"><a href="#"><span class="lang-xs" lang="nl"></span>  <span class="lang-lbl" lang="nl"></a></li>
+									<li lang="es"><a href="#"><span class="lang-xs" lang="es"></span>  <span class="lang-lbl" lang="es"></a></li>
 									<li lang="pl"><a href="#"><span class="lang-xs" lang="pl"></span>  <span class="lang-lbl" lang="pl"></a></li>
-									<li lang="ro"><a href="#"><span class="lang-xs" lang="ro"></span>  <span class="lang-lbl" lang="ro"></a></li>
+									<li lang="it"><a href="#"><span class="lang-xs" lang="it"></span>  <span class="lang-lbl" lang="it"></a></li>
+									<li lang="fr"><a href="#"><span class="lang-xs" lang="fr"></span>  <span class="lang-lbl" lang="fr"></a></li>
 								</ul>
 							</li>
 					  </ul>

@@ -26,8 +26,10 @@ namespace Controllers
             $data['careers']  = $this->language->get('careers');
             $data['blog']     = $this->language->get('blog');
 
+            $data['contact'] = $this->language->get('contact');
             $data['email'] = $this->language->get('email');
             $data['msg']   = $this->language->get('msg');
+            $data['send'] = $this->language->get('send');
 
             $data['tsteinholz'] = $this->language->get('tsteinholz');
             $data['hernst']     = $this->language->get('hernst');

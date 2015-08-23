@@ -10,8 +10,10 @@ return array(
 	'blog' => 'Blog',
 
 	// Footer
+	'contact' => 'contact us',
 	'email' => 'Your Email',
 	'msg' => 'Your Message',
+	'send' => 'send',
 
 	// Employee's Description
 	'tsteinholz' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque eaque totam dignissimos iure perferendis mollitia inventore et rem, ullam pariatur commodi quisquam maxime nesciunt quod porro praesentium blanditiis atque repudiandae.',

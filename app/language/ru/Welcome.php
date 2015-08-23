@@ -3,11 +3,17 @@
 return array(
 
 	// Navbar
-	'home' => 'Home',
-	'about' => 'About',
-	'services' => 'Services',
-	'careers' => 'Careers',
-	'blog' => 'Blog',
+	'home' => 'Главная',
+	'about' => 'около',
+	'services' => 'Сервисы',
+	'careers' => 'карьера',
+	'blog' => 'блог',
+
+	// Footer
+	'contact' => 'свяжитесь с нами',
+	'email' => 'Ваш адрес электронной почты',
+	'msg' => 'ваше сообщение',
+	'send' => 'отправить',
 
 	// Employee's Description
 	'tsteinholz' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque eaque totam dignissimos iure perferendis mollitia inventore et rem, ullam pariatur commodi quisquam maxime nesciunt quod porro praesentium blanditiis atque repudiandae.',
@@ -18,11 +24,11 @@ return array(
 	'jrichards' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum placeat necessitatibus, sunt quasi laudantium vitae aperiam error, eum officia, quae ad commodi eligendi, reprehenderit fuga at fugit odio quisquam!',
 
 	// Positions
-	'lead-dev' => 'Lead Developer',
-	'lead-art' => 'Lead Artist',
-	'lead-des' => 'Lead Designer',
-	'code' => 'Programmer',
-	'art' => 'Artist',
+	'lead-dev' => 'глава программист',
+	'lead-art' => 'главный художник',
+	'lead-des' => 'главный дизайнер',
+	'code' => 'программист',
+	'art' => 'художник',
 
 );
 
