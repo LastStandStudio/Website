@@ -9,6 +9,7 @@ use Core\Language;
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
 		<li data-target="#myCarousel" data-slide-to="3"></li>
+		<li data-target="#myCarousel" data-slide-to="4"></li>
   </ol>
   <div class="carousel-inner" role="listbox">
   	<div class="item active">
@@ -22,6 +23,9 @@ use Core\Language;
     </div>
 		<div class="item">
     	<img class="fourth-slide" src="app/templates/default/img/Welcome/last-stand-graphic.png" alt="Fourth slide">
+    </div>
+		<div class="item">
+    	<img class="fifth-slide" src="app/templates/default/img/Welcome/blog.jpg" alt="Fifth slide">
     </div>
   </div>
   <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -55,7 +59,7 @@ use Core\Language;
 	<div class="row">
 		<!-- Thomas Steinholz -->
     <div class="col-lg-4">
-      <img class="img-circle" src="app/templates/default/img/users/tsteinholz.jpg" alt="Thomas Steinholz" width="140" height="140">
+      <img class="img-circle" src="app/templates/default/img/users/tsteinholz.png" alt="Thomas Steinholz" width="140" height="140">
       <h2>Thomas Steinholz</h2>
 			<h4>CEO / CTO</h4>
 			<p><?php echo $data['tsteinholz']?></p>
@@ -68,12 +72,12 @@ use Core\Language;
 	  </div>
 		<!-- Harrison Ernst -->
 	  <div class="col-lg-4">
-	    <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+	    <img class="img-circle" src="app/templates/default/img/users/hernst.png" alt="Harrison Ernst" width="140" height="140">
 	    <h2>Harrison Ernst</h2>
 			<h4><?php echo $data['lead-art']?></h4>
 		  <p><?php echo $data['hernst']?></p>
 			<div class="icons">
-				<a href="https://github.com/LastStandStudio"><i class="fa fa-github"></i></a>
+				<a href="https://github.com/LastStandStudio"><i class="fa fa-tumblr"></i></a>
 				<a href="https://twitter.com/LSStudioOffical"><i class="fa fa-twitter"></i></a>
 				<a href="http://steamcommunity.com/id/LastStandStudio/profile"><i class="fa fa-steam"></i></a>
 				<a href="http://www.twitch.tv/laststandstudio/profile"><i class="fa fa-twitch"></i></a>
@@ -81,15 +85,15 @@ use Core\Language;
 		</div>
 		<!-- Joshua Freedman -->
 	  <div class="col-lg-4">
-		  <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+		  <img class="img-circle" src="app/templates/default/img/users/jfreedman.jpg" alt="Joshua Freedman" width="140" height="140">
 	  	<h2>Joshua Freedman</h2>
 			<h4><?php echo $data['lead-dev']?></h4>
 			<p><?php echo $data['jfreedman']?></p>
 			<div class="icons">
-				<a href="https://github.com/LastStandStudio"><i class="fa fa-github"></i></a>
-				<a href="https://twitter.com/LSStudioOffical"><i class="fa fa-twitter"></i></a>
-				<a href="http://steamcommunity.com/id/LastStandStudio/profile"><i class="fa fa-steam"></i></a>
-				<a href="http://www.twitch.tv/laststandstudio/profile"><i class="fa fa-twitch"></i></a>
+				<a href="http://jfreedman.us"><i class="fa fa-external-link"></i></a>
+				<a href="https://github.com/d4rkfly3r"><i class="fa fa-github"></i></a>
+				<a href="http://steamcommunity.com/id/tsteinholz"><i class="fa fa-steam"></i></a>
+				<a href="https://twitter.com/ThomasSteinholz"><i class="fa fa-twitter"></i></a>
 			</div>
 		</div>
 	</div>
@@ -97,15 +101,15 @@ use Core\Language;
 	<div class="row">
     <!-- Ross Owens -->
 		<div class="col-lg-4">
-      <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+      <img class="img-circle" src="app/templates/default/img/users/rowens.jpg" alt="Ross Owens" width="140" height="140">
       <h2>Ross Owens</h2>
 			<h4><?php echo $data['lead-des']?></h4>
 			<p><?php echo $data['rowens']?></p>
 			<div class="icons">
-				<a href="https://github.com/LastStandStudio"><i class="fa fa-github"></i></a>
-				<a href="https://twitter.com/LSStudioOffical"><i class="fa fa-twitter"></i></a>
-				<a href="http://steamcommunity.com/id/LastStandStudio/profile"><i class="fa fa-steam"></i></a>
-				<a href="http://www.twitch.tv/laststandstudio/profile"><i class="fa fa-twitch"></i></a>
+				<a href="http://kaosstudios.weebly.com"><i class="fa fa-external-link"></i></a>
+				<a href="https://www.youtube.com/channel/UCLuVr6QYMEeef7P3LuxzBJA"><i class="fa fa-youtube-play"></i></a>
+				<a href="https://twitter.com/Kaosstudiosx"><i class="fa fa-twitter"></i></a>
+				<a href=""><i class="fa fa-behance"></i></a>
 			</div>
 		</div>
 		<!-- Jack Mawer -->
