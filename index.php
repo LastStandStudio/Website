@@ -61,6 +61,10 @@ use Helpers\Session;
 
 //define routes
 Router::any('', 'Controllers\Welcome@index');
+Router::any('about','Controllers\About@about');
+Router::any('services','Controllers\Services@services');
+Router::any('careers','Controllers\Careers@careers');
+
 
 //if no route found
 Router::error('Core\Error@index');
@@ -68,11 +72,9 @@ Router::error('Core\Error@index');
 //turn on old style routing
 Router::$fallback = false;
 
-Session::init();
-if (Session::get('lang') == false) {
-    Session::set('lang', 'en');
+if (empty($_COOKIE['language']) || !isset($_COOKIE['language'])) {
+    $_COOKIE['language'] = 'en';
 }
-define('LANGUAGE_CODE', Session::get('lang'));
-
+define('LANGUAGE_CODE', $_COOKIE['language']);
 //execute matched routes
 Router::dispatch();

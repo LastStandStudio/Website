@@ -21,7 +21,7 @@ namespace Core {
             define('TEMPLATE', 'default');
 
             //set a default language
-            define('LANGUAGE_CODE', 'en');
+            // define('LANGUAGE_CODE', 'en');
 
             //database details ONLY NEEDED IF USING A DATABASE
             define('DB_TYPE', 'mysql');
