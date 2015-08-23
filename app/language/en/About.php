@@ -1,10 +1,15 @@
 <?php
   return array(
-      // Navbar
-  	  'home' => 'Home',
-  	  'about' => 'About',
-  	  'services' => 'Services',
-  	  'careers' => 'Careers',
-  	  'blog' => 'Blog',
+
+    	// Header
+    	'home' => 'Home',
+    	'about' => 'About',
+    	'services' => 'Services',
+    	'careers' => 'Careers',
+    	'blog' => 'Blog',
+
+    	// Footer
+    	'email' => 'Your Email',
+    	'msg' => 'Your Message',
   );
 ?>

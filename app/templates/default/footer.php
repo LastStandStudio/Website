@@ -57,8 +57,8 @@ Assets::js(array(
 				<p>Contact Us</p>
 				<!-- TODO : Send email to 'officallaststandstudio@gmail.com' -->
 				<form action="#" method="post">
-					<input type="text" name="email" placeholder="Your Email" />
-					<textarea name="message" placeholder="Your Message"></textarea>
+					<input type="text" name="email" placeholder="<?php echo $data['email'] ?>" />
+					<textarea name="message" placeholder="<?php echo $data['msg'] ?>"></textarea>
 					<button>Send</button>
 				</form>
 			</div>

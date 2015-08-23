@@ -27,7 +27,6 @@ use Helpers\Url;
 </head>
 <body>
 	<!-- Nav Bar -->
-	<!-- TODO : Make the Navbar header look nicer -->
 	<div class="navbar-wrapper">
 		<div class="container">
 			<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -39,9 +38,6 @@ use Helpers\Url;
         			<span class="icon-bar"></span>
         			<span class="icon-bar"></span>
         		</button>
-						<!-- TODO : Add "LS.Studio" in stylisted text here -->
-						<!-- TODO : Add icon here too? -->
-						<!--<a class="navbar-brand" href="#"><img alt="Brand" src="app/templates/default/img/favicon.png"></a>-->
 						<a class="navbar-brand" href="/">Last <span>Stand</span> Studio</a>
 	    		</div>
 					<div id="navbar" class="navbar-collapse collapse">

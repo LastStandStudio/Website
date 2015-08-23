@@ -2,12 +2,16 @@
 
 return array(
 
-	// Navbar
+	// Header
 	'home' => 'Home',
 	'about' => 'About',
 	'services' => 'Services',
 	'careers' => 'Careers',
 	'blog' => 'Blog',
+
+	// Footer
+	'email' => 'Your Email',
+	'msg' => 'Your Message',
 
 	// Employee's Description
 	'tsteinholz' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque eaque totam dignissimos iure perferendis mollitia inventore et rem, ullam pariatur commodi quisquam maxime nesciunt quod porro praesentium blanditiis atque repudiandae.',

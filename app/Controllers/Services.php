@@ -24,6 +24,9 @@ namespace Controllers
         $data['careers']  = $this->language->get('careers');
         $data['blog']     = $this->language->get('blog');
 
+        $data['email'] = $this->language->get('email');
+        $data['msg']   = $this->language->get('msg');
+
         View::renderTemplate('header', $data);
         View::render('services/services', $data);
         View::renderTemplate('footer', $data);

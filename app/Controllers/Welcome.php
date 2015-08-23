@@ -18,11 +18,16 @@ namespace Controllers
         {
             $data['page']='home';
 
+            $data[''] = $this->language->get('');
+
             $data['home']     = $this->language->get('home');
             $data['about']    = $this->language->get('about');
             $data['services'] = $this->language->get('services');
             $data['careers']  = $this->language->get('careers');
             $data['blog']     = $this->language->get('blog');
+
+            $data['email'] = $this->language->get('email');
+            $data['msg']   = $this->language->get('msg');
 
             $data['tsteinholz'] = $this->language->get('tsteinholz');
             $data['hernst']     = $this->language->get('hernst');
