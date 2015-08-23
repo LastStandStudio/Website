@@ -5,20 +5,18 @@ namespace Controllers
   use Core\View;
   use Core\Controller;
 
-  class About extends Controller
+  class Template extends Controller
   {
-    /**
-     * Call the parent construct
-     */
+
     public function __construct()
     {
         parent::__construct();
-        $this->language->load('About');
+        $this->language->load('Template');
     }
 
-    public function about()
+    public function template()
     {
-      $data['page']='about';
+        $data['page']='template';
 
         $data['home']     = $this->language->get('home');
         $data['about']    = $this->language->get('about');
@@ -27,7 +25,7 @@ namespace Controllers
         $data['blog']     = $this->language->get('blog');
 
         View::renderTemplate('header', $data);
-        View::render('about/about', $data);
+        View::render('template/template', $data);
         View::renderTemplate('footer', $data);
     }
   }

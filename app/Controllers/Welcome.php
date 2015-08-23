@@ -40,7 +40,6 @@ namespace Controllers {
             $data['services'] = $this->language->get('services');
             $data['careers']  = $this->language->get('careers');
             $data['blog']     = $this->language->get('blog');
-            $data['language'] = $this->language->get('language');
 
             $data['tsteinholz'] = $this->language->get('tsteinholz');
             $data['hernst']     = $this->language->get('hernst');

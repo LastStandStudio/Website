@@ -10,24 +10,16 @@ use Core\Language;
   	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
-		<li data-target="#myCarousel" data-slide-to="3"></li>
-		<li data-target="#myCarousel" data-slide-to="4"></li>
   </ol>
   <div class="carousel-inner" role="listbox">
-  	<div class="item active">
-    	<img class="first-slide" src="app/templates/default/img/Welcome/comming-soon.png" alt="First slide" height="75">
-    </div>
-    <div class="item">
-    	<img class="second-slide" src="app/templates/default/img/Welcome/welcome.png" alt="Second slide">
-    </div>
-    <div class="item">
-    	<img class="third-slide" src="app/templates/default/img/Welcome/somnia-graphic.png" alt="Third slide">
+    <div class="item active">
+    	<img class="slide" src="app/templates/default/img/Welcome/somnia-graphic.png" alt="slide">
     </div>
 		<div class="item">
-    	<img class="fourth-slide" src="app/templates/default/img/Welcome/last-stand-graphic.png" alt="Fourth slide">
+    	<img class="slide" src="app/templates/default/img/Welcome/last-stand-graphic.png" alt="slide">
     </div>
 		<div class="item">
-    	<img class="fifth-slide" src="app/templates/default/img/Welcome/blog-graphic.png" alt="Fifth slide">
+    	<img class="slide" src="app/templates/default/img/Welcome/blog-graphic.png" alt="slide">
     </div>
   </div>
   <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">

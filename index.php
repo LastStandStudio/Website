@@ -61,6 +61,10 @@ use Helpers\Session;
 
 //define routes
 Router::any('', 'Controllers\Welcome@index');
+Router::any('about','Controllers\About@about');
+Router::any('services','Controllers\Services@services');
+Router::any('careers','Controllers\Careers@careers');
+
 
 //if no route found
 Router::error('Core\Error@index');
