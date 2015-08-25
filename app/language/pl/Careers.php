@@ -3,6 +3,7 @@
 
     // Header
   	'home' => 'Dom',
+    'forum' => 'Forum',
   	'about' => 'O',
   	'services' => 'Usługi',
   	'careers' => 'Kariera',

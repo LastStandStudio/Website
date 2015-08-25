@@ -3,6 +3,7 @@
 
     // Navbar
   	'home' => 'Zuhause',
+    'forum' => 'Forum',
   	'about' => 'Über',
   	'services' => 'Dienstleistungen',
   	'careers' => 'Karrieren',
@@ -13,6 +14,6 @@
   	'email' => 'Ihre E-Mail',
   	'msg' => 'Ihre Nachricht',
   	'send' => 'senden',
-    
+
   );
 ?>

@@ -3,6 +3,7 @@
 
     // Navbar
   	'home' => 'Zuhause',
+    'forum' => 'Forum',
   	'about' => 'Über',
   	'services' => 'Dienstleistungen',
   	'careers' => 'Karrieren',

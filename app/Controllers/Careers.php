@@ -19,6 +19,7 @@ namespace Controllers
         $data['page']='careers';
 
         $data['home']     = $this->language->get('home');
+        $data['forum'] = $this->language->get('forum');
         $data['about']    = $this->language->get('about');
         $data['services'] = $this->language->get('services');
         $data['careers']  = $this->language->get('careers');

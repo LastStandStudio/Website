@@ -3,6 +3,7 @@
 
     // Header
   	'home' => 'Huis',
+    'forum' => 'Forum',
   	'about' => 'Ongeveer',
   	'services' => 'Diensten',
   	'careers' => 'Carrières',
