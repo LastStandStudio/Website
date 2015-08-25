@@ -1,34 +1,80 @@
 <?php
-	include('includes/header.inc.php');
-?>
-	<script>
-		changeActivePage("home");
-	</script>
-    <div class="parallax">
-        <div class="bg__foo<?php echo rand(2,2); ?>">
-            <!--<span id="fade"><heading style="font-size: 100px; font-weight: 100;">LAST STAND STUDIO</heading></span>-->
-        </div>
-    </div>
-    <div id="front">
-        <div class="row">
-            <div class="small-4 columns">
-                <h2>Kickstarter</h2>
-                <h5>
-                    Not Available yet!
-                </h5>
-            </div>
-            <div class="small-4 columns">
-                <h2>Development</h2>
-                <h5>
-                    Check out <a href="about.html">this</a> to learn more about our team, and what we stand for!
-                </h5>
-            </div>
-            <div class="small-4 columns">
-                <h2>Social Media</h2>
-                <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/LSStudioOffical" data-widget-id="560544177596137472">Tweets by @LSStudioOffical</a>
-            </div>
-        </div>
-    </div>
-<?php
-	include('includes/footer.inc.php');
-?>
+if (file_exists('vendor/autoload.php')) {
+    require 'vendor/autoload.php';
+} else {
+    echo "<h1>Please install via composer.json</h1>";
+    echo "<p>Install Composer instructions: <a href='https://getcomposer.org/doc/00-intro.md#globally'>https://getcomposer.org/doc/00-intro.md#globally</a></p>";
+    echo "<p>Once composer is installed navigate to the working directory in your terminal/command promt and enter 'composer install'</p>";
+    exit;
+}
+
+if (!is_readable('app/Core/Config.php')) {
+    die('No Config.php found, configure and rename Config.example.php to Config.php in app/Core.');
+}
+
+/*
+ *---------------------------------------------------------------
+ * APPLICATION ENVIRONMENT
+ *---------------------------------------------------------------
+ *
+ * You can load different configurations depending on your
+ * current environment. Setting the environment also influences
+ * things like logging and error reporting.
+ *
+ * This can be set to anything, but default usage is:
+ *
+ *     development
+ *     production
+ *
+ * NOTE: If you change these, also change the error_reporting() code below
+ *
+ */
+define('ENVIRONMENT', 'development');
+/*
+ *---------------------------------------------------------------
+ * ERROR REPORTING
+ *---------------------------------------------------------------
+ *
+ * Different environments will require different levels of error reporting.
+ * By default development will show errors but production will hide them.
+ */
+
+if (defined('ENVIRONMENT')) {
+    switch (ENVIRONMENT) {
+        case 'development':
+            error_reporting(E_ALL);
+            break;
+        case 'production':
+            error_reporting(0);
+            break;
+        default:
+            exit('The application environment is not set correctly.');
+    }
+}
+
+//initiate config
+new Core\Config();
+
+//create alias for Router
+use Core\Router;
+use Helpers\Session;
+
+//define routes
+Router::any('', 'Controllers\Welcome@index');
+Router::any('about','Controllers\About@about');
+Router::any('services','Controllers\Services@services');
+Router::any('careers','Controllers\Careers@careers');
+
+
+//if no route found
+Router::error('Core\Error@index');
+
+//turn on old style routing
+Router::$fallback = false;
+
+if (empty($_COOKIE['language']) || !isset($_COOKIE['language'])) {
+    $_COOKIE['language'] = 'en';
+}
+define('LANGUAGE_CODE', $_COOKIE['language']);
+//execute matched routes
+Router::dispatch();
