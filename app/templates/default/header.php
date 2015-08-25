@@ -45,6 +45,7 @@ use Helpers\Url;
 							<li <?php echo $data['page']=='home' ? 'class="active"' : ''; ?>>
 								<a href="/"><?php echo $data['home']; ?></a>
 							</li>
+							<li><a href="http://forum.laststandstudio.com"><?php echo $data['forum']?></a></li>
 							<li <?php echo $data['page']=='about' ? 'class="active"' : ''; ?>>
 								<a href="/about"><?php echo $data['about']; ?></a>
 							</li>

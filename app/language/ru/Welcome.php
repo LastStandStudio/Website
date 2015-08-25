@@ -4,6 +4,7 @@ return array(
 
 	// Navbar
 	'home' => 'Главная',
+	'forum' => 'форум',
 	'about' => 'около',
 	'services' => 'Сервисы',
 	'careers' => 'карьера',

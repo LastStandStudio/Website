@@ -4,6 +4,7 @@ return array(
 
 	// Navbar
 	'home' => 'Casa',
+	'forum' => 'Foro',
 	'about' => 'Di',
 	'services' => 'Servizi',
 	'careers' => 'Carriere',
